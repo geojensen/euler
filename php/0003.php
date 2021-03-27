@@ -1,12 +1,6 @@
-<?php
-/*
-The prime factors of 13195 are 5, 7, 13 and 29.
-What is the largest prime factor of the number 600851475143 ?
- * 
- */
+// error line 32
 
-//use bcmod functions to handle large numbers that PHP integers can't handle
-//check if number is prime
+<?php
 function is_prime($num)
 {
     if($num === 2)
@@ -41,3 +35,12 @@ for($i = 2; $i <= $num; $i++)
 print $largest_prime_factor;
 
 ?>
+
+/*
+The prime factors of 13195 are 5, 7, 13 and 29.
+What is the largest prime factor of the number 600851475143 ?
+ * 
+ */
+
+//use bcmod functions to handle large numbers that PHP integers can't handle
+//check if number is prime
