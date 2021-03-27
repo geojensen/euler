@@ -1,6 +1,3 @@
-console.log('Project Euler - Problem 02');
-console.log('https://projecteuler.net/problem=2');
-console.log('----------------------------------');
 
 const fibonacciSequence = [0, 1];
 const limit = 4000000;
@@ -16,3 +13,6 @@ while (nextInSequence <= limit) {
 const sumOfEven = fibonacciSequence.reduce((a, value) => a + (value % 2 === 0 ? value : 0), 0);
 
 console.log('Sum of even terms:', sumOfEven);
+
+console.log('Project Euler - Problem 02');
+console.log('https://projecteuler.net/problem=2');
